@@ -8,20 +8,31 @@ body {
 }
 
 header {
-    width: 960px;
-    margin: 0 auto;
     background-color: #ffffff;
-    height: 88px;
+    height: 72px;
+    border-bottom: 2px #cccccc solid;
 }
 
-.container {
+.headerwrap {
     width: 960px;
     float: none;
     margin: 0 auto;
 }
 
+.container {
+    width: 920px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px #dddddd solid;
+    background-color: #ffffff;
+    padding: 20px;
+    line-height: 150%;
+}
+
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 28px;
     background-color: #4aaaa5;
     color: white;
     float: left;
@@ -38,8 +49,10 @@ h2 {
 }
 
 h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-top: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    margin-top: 15px;
 }
 
 #bio-image {
@@ -56,4 +69,17 @@ a:link {
 a:visited {
     text-decoration: none;
     color: #777777;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    padding: 5px;
+    background-color: #666666;
+    padding-top: 40px;
 }
